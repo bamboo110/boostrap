@@ -8,6 +8,13 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
+    <!-- CSS -->
+    <style>
+      section{
+        min-height: 500px;
+      }
+    </style>
+
     <title>Bootstrap Portfolio</title>
   </head>
   <body>
@@ -23,6 +30,7 @@
               <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
               <a class="nav-item nav-link" href="#">About</a>
               <a class="nav-item nav-link" href="#">Portfolio</a>
+              <a class="nav-item nav-link" href="#">Contact Us</a>
             </div>
           </div>
       </div>
@@ -30,91 +38,63 @@
 
     <div class="jumbotron jumbotron-fluid">
         <div class="container text-center">
-          <img src="assets/img/undraw_profile_pic_ic5t.svg" alt="users" width="200">
-          <h1 class="display-4">Bambang Setyo Budi </h1>
+          <img src="assets/img/undraw_profile_pic_ic5t.svg" alt="users" width="25%" class="rounded-circle img-thumbnail">
+          <h2 class="display-4">Bambang Setyo Budi </h2>
           <p class="lead">Belajar skuy dibawah bimbingan PixellPie</p>
         </div>
     </div>
 
-    <div class="container">
-      <div class="row">
-        <div class="col text-center">
-          <h1>About</h1>
+    <section id="about" class="about">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-md text-center">
+            <h2>About</h2>
+          </div>
+        </div>
+
+        <div class="row justify-content-center">
+          <div class="col-md-5 text-center">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos vel ipsa nemo earum sit tempore vitae cumque pariatur tenetur quam consequuntur, minima eligendi fuga officiis voluptatem id consectetur odit distinctio! Quaerat laborum officiis quidem hic repellat sint aut possimus cumque tenetur. Ab asperiores rem necessitatibus amet, eveniet suscipit eos nostrum quis ipsam quaerat neque nemo voluptas recusandae, mollitia, in accusamus.</p>
+          </div>
+          <div class="col-md-5 text-center">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos vel ipsa nemo earum sit tempore vitae cumque pariatur tenetur quam consequuntur, minima eligendi fuga officiis voluptatem id consectetur odit distinctio! Quaerat laborum officiis quidem hic repellat sint aut possimus cumque tenetur. Ab asperiores rem necessitatibus amet, eveniet suscipit eos nostrum quis ipsam quaerat neque nemo voluptas recusandae, mollitia, in accusamus.</p>
+          </div>
         </div>
       </div>
+    </section>
 
-      <div class="row">
-        <div class="col text-center">
-          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos vel ipsa nemo earum sit tempore vitae cumque pariatur tenetur quam consequuntur, minima eligendi fuga officiis voluptatem id consectetur odit distinctio! Quaerat laborum officiis quidem hic repellat sint aut possimus cumque tenetur. Ab asperiores rem necessitatibus amet, eveniet suscipit eos nostrum quis ipsam quaerat neque nemo voluptas recusandae, mollitia, in accusamus.</p>
-        </div>
-        <div class="col text-center">
-          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos vel ipsa nemo earum sit tempore vitae cumque pariatur tenetur quam consequuntur, minima eligendi fuga officiis voluptatem id consectetur odit distinctio! Quaerat laborum officiis quidem hic repellat sint aut possimus cumque tenetur. Ab asperiores rem necessitatibus amet, eveniet suscipit eos nostrum quis ipsam quaerat neque nemo voluptas recusandae, mollitia, in accusamus.</p>
-        </div>
-      </div>
-    </div>
-
-    <div class="container">
-      <div class="row">
-        <div class="col text-center">
-          <h1>Portfolio</h1>
-        </div>
-      </div>
-    </div>
-
-    <div class="container">
-      <div class="row">
-        <div class="col">
-            <div class="card">
-              <img src="assets/img/blank-screen-laptop-creative-work-space_67155-2448.jpg" class="card-img-top" alt="...">
-              <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              </div>
-            </div>
-        </div>
-
-        <div class="col">
-            <div class="card">
-              <img src="assets/img/blank-screen-laptop-creative-work-space_67155-2448.jpg" class="card-img-top" alt="...">
-              <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              </div>
-            </div>
-        </div>
-
-        <div class="col">
-            <div class="card">
-              <img src="assets/img/blank-screen-laptop-creative-work-space_67155-2448.jpg" class="card-img-top" alt="...">
-              <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              </div>
-            </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="container">
+    <section id="portfolio" class="portfolio bg-light pb-5">
+      <div class="container">
         <div class="row">
-          <div class="col">
+          <div class="col-md mb-5 pt-5 text-center">
+            <h2>Portfolio</h2>
+          </div>
+        </div>
+      </div>
+
+      <div class="container mb-5">
+        <div class="row">
+          <div class="col-md">
               <div class="card">
-                <img src="assets/img/blank-screen-laptop-creative-work-space_67155-2448.jpg" class="card-img-top" alt="...">
+                <img src="assets/img/female-hand-typing-keyboard-laptop_1150-15742.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                 </div>
               </div>
           </div>
-  
-          <div class="col">
+
+          <div class="col-md ">
               <div class="card">
-                <img src="assets/img/blank-screen-laptop-creative-work-space_67155-2448.jpg" class="card-img-top" alt="...">
+                <img src="assets/img/group-people-working-out-business-plan-office_1303-15874.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                 </div>
               </div>
           </div>
-  
-          <div class="col">
+
+          <div class="col-md">
               <div class="card">
-                <img src="assets/img/blank-screen-laptop-creative-work-space_67155-2448.jpg" class="card-img-top" alt="...">
+                <img src="assets/img/close-up-person-s-hand-holding-smartphone-desk_23-2147936441.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                 </div>
@@ -122,6 +102,100 @@
           </div>
         </div>
       </div>
+
+      <div class="container mb-5">
+          <div class="row">
+            <div class="col-md">
+                <div class="card">
+                  <img src="assets/img//laptop-wooden-table_53876-20635.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  </div>
+                </div>
+            </div>
+    
+            <div class="col-md">
+                <div class="card">
+                  <img src="assets/img/double-exposure-business-partnership-handshake-modern-city-successful-business-greeting-agreement-after-perfect-deal_39665-134.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  </div>
+                </div>
+            </div>
+    
+            <div class="col-md">
+                <div class="card">
+                  <img src="assets/img/book-laptop-pencil-clock-wooden-table-library-education-learning-concept_1150-16629.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  </div>
+                </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="contact mb-5">
+        <div class="container">
+          <div class="row mb-5 pt-5">
+            <div class="col-md text-center">
+              <h2>Contact Us</h2>
+            </div>
+          </div>
+
+          <div class="row justify-content-center">
+            <div class="col-md-4">
+                <div class="card text-white bg-primary mb-3">
+                  <div class="card-body text-center">
+                    <h5 class="card-title">Contact Us</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, cupiditate.</p>
+                  </div>
+                </div>
+                <ul class="list-group">
+                  <li class="list-group-item"><h1>Location</h1></li>
+                  <li class="list-group-item">My Home</li>
+                  <li class="list-group-item">Ds. Sugihan Dsn. Sumber, Jatirogo, Tuban</li>
+                  <li class="list-group-item">East Javal, Indonesia</li>
+                </ul>
+            </div>
+
+            <div class="col-md-6">
+                <form>
+                 <div class="form-group">
+                    <label for="nama">Nama</label>
+                    <input type="text" class="form-control" id="nama">
+                  </div>
+                  <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" class="form-control" id="email">
+                  </div>
+                  <div class="form-group">
+                    <label for="no-telp">No Telp</label>
+                    <input type="number" class="form-control" id="no-telp">
+                  </div>
+                  <div class="form-group">
+                    <label for="pesan">pesan</label>
+                    <textarea name="pesan" id="pesan" class="form-control"></textarea>
+                  </div>
+                  <div class="form-group">
+                    <button type="button" class="btn btn-primary">Kirim Pesan!</button>
+                  </div>
+                </form>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <footer class="bg-dark text-white">
+        <div class="container text-center">
+          <div class="row pt-3 pb-3">
+            <div class="col">
+              <h5>Sans Ngoding</h5>
+            </div>
+          </div>
+        </div>
+      </footer>
 
 
 
