@@ -20,14 +20,11 @@
 
 ## Screenshot from the project
 <p align='center'>
-      <image width="500" src="" />
+      <image width="500" src="assets/screenshot/ss-1.PNG" />
 </p>
 <p align='center'>
-      <image width="500" src="" />
+      <image width="500" src="assets/screenshot/ss-2.PNG" />
 </p>
 <p align='center'>
-      <image width="500" src="" />
-</p>
-<p align='center'>
-      <image width="500" src="" />
+      <image width="500" src="assets/screenshot/ss-3.PNG" />
 </p>
