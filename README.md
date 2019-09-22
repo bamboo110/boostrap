@@ -1,7 +1,7 @@
 <h1 align='center'>Bootstrap Portfolio</h1>
 
 <p align='center'>
-    <img width="400" src='assets/img/programming-code-with-laptop-background_1134-61.jpg' />
+    <img width="400" src='assets/img/bootstrap-stack.png' />
 </p>
 
 <p>This is the first project I used Bootstrap I think Bootstrap is very helpful and makes it easy for me to work on this project.</p>
